@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="437.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ListView fx:id="listB" layoutX="42.0" layoutY="41.0" prefHeight="200.0" prefWidth="335.0" />
+      <ComboBox fx:id="City" layoutX="422.0" layoutY="41.0" onAction="#CityBox" prefWidth="150.0" promptText="City" />
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+      <Text layoutX="42.0" layoutY="276.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Source city" wrappingWidth="97.13671875">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="45.0" layoutY="327.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Destination city" wrappingWidth="127.13671875">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <TextField fx:id="Scit" layoutX="195.0" layoutY="257.0" />
+      <TextField fx:id="Dcit" layoutX="195.0" layoutY="307.0" />
+      <Text layoutX="45.0" layoutY="377.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tickets number" wrappingWidth="127.13671875">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <TextField fx:id="Tickets" layoutX="195.0" layoutY="358.0" />
+      <Button fx:id="Order" layoutX="422.0" layoutY="382.0" mnemonicParsing="false" onAction="#OrderB" prefHeight="25.0" prefWidth="97.0" text="Order" />
+      <TextArea fx:id="price" layoutX="371.0" layoutY="254.0" prefHeight="34.0" prefWidth="200.0" />
+      <Button fx:id="Routes" layoutX="422.0" layoutY="332.0" mnemonicParsing="false" onAction="#Sroutes" prefHeight="25.0" prefWidth="97.0" text="Show Routes" />
+      <Button fx:id="refresh" layoutX="519.0" layoutY="182.0" mnemonicParsing="false" onAction="#Refresh" text="refresh" />
+      <Text layoutY="-13.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" wrappingWidth="22.13671875" />
+      <Text layoutX="42.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="BockingPlane.app" wrappingWidth="150.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="387.0" layoutY="246.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tickets price" wrappingWidth="70.13671875" />
+   </children>
+</AnchorPane>
